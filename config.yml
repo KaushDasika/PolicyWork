@@ -1,3 +1,6 @@
 title: Policy Analysis Portfolio
 description: Selected policy analyses (PDFs) with sources and updates.
 theme: jekyll-theme-minimal
+
+include:
+  - pdfs
