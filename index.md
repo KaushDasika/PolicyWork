@@ -10,7 +10,7 @@ hr { margin: 1.25rem 0; }
 </style>
 
 <!-- Hero -->
-**PolicyWork** — concise, source-cited analyses on technology & governance.
+This repository is a personal project for me to better my policy writing and analysis skills. I aim to focus on policy relevant to technology but overall this is meant to showcase any work I come up with.
 
 <hr/>
 
