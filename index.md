@@ -9,18 +9,13 @@ title: PolicyWork
 hr { margin: 1.25rem 0; }
 </style>
 
-<!-- Hero paragraph -->
+<!-- Top paragraph you wanted -->
 This repository is a personal project for me to better my policy writing and analysis skills. I aim to mostly focus on policy relevant to technology but overall this is meant to showcase any work I come up with.
 
 <hr/>
 
-<!-- Category list built from _data/papers.yml -->
+<!-- Build category sections from _data/papers.yml -->
 {% assign data_items = site.data.papers.items | default: empty %}
-
-{% comment %}
-Order your sections here. Rename the second category to taste, e.g.:
-"Public Administration & Security" or "Governance & National Security".
-{% endcomment %}
 {% assign category_order = "Tech Policy|Governance & National Security" | split: "|" %}
 
 {% for cat in category_order %}
@@ -49,33 +44,8 @@ Order your sections here. Rename the second category to taste, e.g.:
   {% endif %}
 {% endfor %}
 
-{% comment %}
-Auto-catch any PDFs in /pdfs that aren't listed in _data/papers.yml.
-{% endcomment %}
-{% assign mapped_files = data_items | map: "file" %}
-{% assign allpdfs = site.static_files | where: "extname", ".pdf" %}
-{% assign unmapped = "" | split: "" %}
-{% for f in allpdfs %}
-  {% if f.path contains '/pdfs/' %}
-    {% assign base = f.path | split: '/pdfs/' | last %}
-    {% unless mapped_files contains base %}
-      {% assign unmapped = unmapped | push: f %}
-    {% endunless %}
-  {% endif %}
-{% endfor %}
-
-{% if unmapped.size > 0 %}
-<h2>Additional Papers</h2>
-<ul class="portfolio-list">
-  {% for f in unmapped %}
-    <li><a href="{{ f.path | uri_escape | relative_url }}" target="_blank" rel="noopener">
-      {{ f.name | replace: '-', ' ' | replace: '_', ' ' | replace: '.pdf','' }}
-    </a></li>
-  {% endfor %}
-</ul>
-{% endif %}
-
 <p class="small">Last updated: {{ site.time | date: "%B %d, %Y" }}</p>
+
 
 
 
