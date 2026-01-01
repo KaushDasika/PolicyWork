@@ -6,5 +6,8 @@ This repository is a personal project for me to better my policy writing and ana
 ## Governance & National Security
 - [Deception & Dual-Use: India’s Complicated History with Rockets](pdfs/Deception%20and%20Dual-use_%20India%E2%80%99s%20Complicated%20History%20with%20Rockets.pdf)
 
+## Data Analysis Projects
+- [Markets, Approval, and Incumbent Presidential Re-election](https://kaushdasika.github.io/ps270-final-project/)
+
 
 
