@@ -1,4 +1,19 @@
-theme: jekyll-theme-minimal
-url: "https://username.github.io"
-baseurl: "/PolicyWork"   # <-- important for correct links
-include: [pdfs]
+title: "Kaushal Dasika"
+description: "Technology Policy, Governance, and Data Analysis"
+
+url: "https://kaushdasika.github.io"
+baseurl: "/PolicyWork"
+
+theme: minima
+
+include:
+  - pdfs
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
