@@ -1,20 +1,17 @@
 items:
   - title: "Honors Thesis: Measuring the Potential of Artificial Intelligence to Assist Local Governance"
-    file: "Measuring the Potential of Artificial Intelligence to Assist Local Governance - Kaushal Dasika.pdf"
+    file: "Measuring%20the%20Potential%20of%20Artificial%20Intelligence%20to%20Assist%20Local%20Governance%20-%20Kaushal%20Dasika.pdf"
     category: "Tech Policy"
     pinned: true
-
   - title: "Establishing Federal Standards for Artificial Intelligence: The AI Transparency Act"
-    file: "Kaushal Dasika - AI Transparency Act.pdf"
+    file: "Kaushal%20Dasika%20-%20AI%20Transparency%20Act.pdf"
     category: "Tech Policy"
     pinned: true
-
-  - title: "America’s AI Push in the Big Beautiful Bill"
-    file: "America’s AI Push in the Big Beautiful Bill.pdf"
+  - title: "America's AI Push in the Big Beautiful Bill"
+    file: "America%27s%20AI%20Push%20in%20the%20Big%20Beautiful%20Bill.pdf"
     category: "Tech Policy"
     pinned: false
-
-  - title: "Deception & Dual-Use: India’s Complicated History with Rockets"
-    file: "Deception and Dual-use_ India’s Complicated History with Rockets.pdf"
+  - title: "Deception & Dual-Use: India's Complicated History with Rockets"
+    file: "Deception%20and%20Dual-use_%20India%27s%20Complicated%20History%20with%20Rockets.pdf"
     category: "Governance & National Security"
     pinned: true
