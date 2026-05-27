@@ -1,19 +1,11 @@
 title: "Kaushal Dasika"
 description: "Technology Policy, Governance, and Data Analysis"
-
 url: "https://kaushdasika.github.io"
 baseurl: "/PolicyWork"
-
-theme: minima
-
+theme: jekyll-theme-primer
 include:
   - pdfs
-
 markdown: kramdown
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-header_pages:
-  - index.md
