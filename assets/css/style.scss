@@ -1,6 +1,5 @@
 ---
 ---
-@import "minima";
 
 /* ─────────────────────────────────────────
    GOOGLE FONTS
@@ -42,14 +41,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Hide minima chrome */
-.site-header,
-.site-nav,
-.site-footer { display: none !important; }
-
-.page-content { padding: 0; }
-.wrapper { max-width: 100%; padding: 0; }
-.home { padding: 0; }
+a { color: inherit; }
 
 /* ─────────────────────────────────────────
    HERO
@@ -64,7 +56,6 @@ body {
   background: var(--bg);
 }
 
-/* Noise texture overlay */
 .hero-noise {
   position: absolute;
   inset: 0;
@@ -74,7 +65,6 @@ body {
   z-index: 0;
 }
 
-/* Ambient glows */
 .hero-glow {
   position: absolute;
   border-radius: 50%;
@@ -103,7 +93,6 @@ body {
   to   { transform: translate(-40px, -50px); }
 }
 
-/* Diagonal accent line */
 .hero-section::after {
   content: '';
   position: absolute;
@@ -207,7 +196,6 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Scroll indicator */
 .hero-section::before {
   content: 'SCROLL';
   position: absolute;
@@ -252,7 +240,6 @@ body {
   letter-spacing: -0.01em;
 }
 
-/* Category blocks */
 .category-block {
   margin-bottom: 4rem;
   padding-bottom: 4rem;
@@ -269,14 +256,11 @@ body {
   text-transform: uppercase;
   color: var(--accent);
   margin-bottom: 1.5rem;
-  padding-left: 0;
 }
 
-/* Paper rows */
 .paper-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
 
 .paper-row {
@@ -292,19 +276,13 @@ body {
 }
 .paper-row:first-child { border-top: none; }
 
-.paper-row:hover {
-  padding-left: 1rem;
-}
-.paper-row:hover .paper-row-title {
-  color: var(--text);
-}
+.paper-row:hover { padding-left: 1rem; }
+.paper-row:hover .paper-row-title { color: var(--text); }
 .paper-row:hover .paper-row-arrow {
   color: var(--accent);
   transform: translateX(4px);
 }
-.paper-row:hover .paper-row-bar {
-  transform: scaleX(1);
-}
+.paper-row:hover .paper-row-bar { transform: scaleX(1); }
 
 .paper-row-inner {
   display: flex;
@@ -357,7 +335,6 @@ body {
   flex-shrink: 0;
 }
 
-/* Sliding bar on hover */
 .paper-row-bar {
   position: absolute;
   bottom: 0; left: 0;
